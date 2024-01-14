@@ -1,6 +1,6 @@
 # React-Table
 
-Demo [https://react-table-henna.vercel.app](https://react-table-henna.vercel.app){:target="_blank"}
+Demo [https://react-table-henna.vercel.app](https://react-table-henna.vercel.app)
 
 # Getting Started with Create React App
 
