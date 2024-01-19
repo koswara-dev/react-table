@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import { ExampleNestedRow } from '../table/ExampleNestedRow';
+import { SampleNestedRow } from '../table/SampleNestedRow';
 
 export const ExampleModals = () => {
   const [show, setShow] = useState(false);
@@ -21,7 +21,7 @@ export const ExampleModals = () => {
         </Modal.Header>
         <Modal.Body>
           <p>Woohoo, you are reading this text in a modal!</p>
-          <ExampleNestedRow />
+          <SampleNestedRow />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

@@ -2,11 +2,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import { ExampleComponent } from './components/table/ExampleComponent';
-import { ExampleNestedRow } from './components/table/ExampleNestedRow';
 import { Home } from './components/home/Home';
 import { PageNotFound } from './components/PageNotFound';
 import { ExampleModals } from './components/modals/ExampleModals';
 import { ExampleNavbar } from './components/navbar/ExampleNavbar';
+import { SampleNestedRow } from './components/table/SampleNestedRow';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/table' element={<ExampleComponent />} />
-            <Route path='/table-nested-row' element={<ExampleNestedRow />} />
+            <Route path='/table-nested-row' element={<SampleNestedRow />} />
             <Route path='/modals' element={<ExampleModals />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
